@@ -1,0 +1,54 @@
+.parent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .inputParent {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .imageParent {
+    margin-bottom: 20px;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .uploadedImage {
+    max-width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+  
+  .button, .clearButton {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  .clearButton {
+    background-color: #dc3545;
+  }
+  
+  .button:disabled, .clearButton:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
